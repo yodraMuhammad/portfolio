@@ -5,7 +5,6 @@ module.exports = {
     container: {
       center: true,
       padding: '16px',
-
     },
     extend: {
       colors: {
@@ -15,7 +14,7 @@ module.exports = {
       },
       screen: {
         '2xl': '1320px',
-      }
+      },
     },
   },
   plugins: [],
