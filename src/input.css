@@ -1,6 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes infiniteup {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.updown-animation{
+    animation-name: infiniteup;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
 body{
     font-family: 'Inter', sans-serif;
